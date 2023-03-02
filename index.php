@@ -84,11 +84,11 @@
             if (isset($_POST['login']) && !empty($_POST['username']) 
                && !empty($_POST['password'])) {
 				
-               if ($_POST['username'] == 'tutorialspoint' && 
+               if ($_POST['username'] == 'Shonit' && 
                   $_POST['password'] == '1234') {
                   $_SESSION['valid'] = true;
                   $_SESSION['timeout'] = time();
-                  $_SESSION['username'] = 'tutorialspoint';
+                  $_SESSION['username'] = 'Shonit';
                   
                   echo 'You have entered valid use name and password';
                }else {
@@ -113,7 +113,7 @@
                name = "login">Login</button>
          </form>
 			
-         Click here to clean <a href = "logout.php" tite = "Logout">Session.
+         
          
       </div> 
       
