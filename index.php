@@ -11,7 +11,7 @@
 <html lang = "en">
    
    <head>
-      <title>login vslidation</title>
+      <title>login validation</title>
       <link href = "css/bootstrap.min.css" rel = "stylesheet">
       
       <style>
@@ -105,7 +105,7 @@
             ?>" method = "post">
             <h4 class = "form-signin-heading"><?php echo $msg; ?></h4>
             <input type = "text" class = "form-control" 
-               name = "username" placeholder = "username = tutorialspoint" 
+               name = "username" placeholder = "username = Shonit" 
                required autofocus></br>
             <input type = "password" class = "form-control"
                name = "password" placeholder = "password = 1234" required>
