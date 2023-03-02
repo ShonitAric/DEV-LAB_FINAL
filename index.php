@@ -1,7 +1,7 @@
 <html>  
 <head>  
     <title>PHP login system</title>  
-    // insert style.css file inside index.html  
+  
     <link rel = "stylesheet" type = "text/css" href = "style.css">   
 </head>  
 <body>  
@@ -20,8 +20,7 @@
                 <input type =  "submit" id = "btn" value = "Login" />  
             </p>  
         </form>  
-    </div>  
-    // validation for empty field   
+    </div>     
     <script>  
             function validation()  
             {  
